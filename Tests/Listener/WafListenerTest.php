@@ -17,7 +17,7 @@ use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class WafListener extends \PHPUnit_Framework_TestCase
+class WafListenerTest extends \PHPUnit_Framework_TestCase
 {
     public function testOnKernelRequest()
     {
